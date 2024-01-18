@@ -1,0 +1,4 @@
+===============================
+( ( { SUM ( ( markets[assets[i]].collateralFactorMantissa mul ( vars.exchangeRateMantissa[i] mul vars.oraclePriceMantissa[i] )  )  mul vars.cTokenBalance[i] )  from i  = 0 to assets.length }  sub ( ( { SUM ( vars.oraclePriceMantissa[i] mul vars.borrowBalance[i] )  from i  = 0 to assets.length }  add ( ( markets[assets[i]].collateralFactorMantissa mul ( vars.exchangeRateMantissa[i] mul vars.oraclePriceMantissa[i] )  )  mul redeemTokens )  )  add ( vars.oraclePriceMantissa[i] mul borrowAmount )  )  )  > 0 ) 
+===============================
+

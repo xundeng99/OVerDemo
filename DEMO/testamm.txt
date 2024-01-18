@@ -1,0 +1,4 @@
+===============================
+( amount <= ( ( ( ( USDCdeposits[msg.sender] * getPriceUSDCETH )  / 1000000000000000000 )  * collateralizationRatio )  / 10000 )  ) 
+===============================
+
