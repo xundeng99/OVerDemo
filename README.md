@@ -1,6 +1,8 @@
 ### Applying OVer On A New Contract
 This repo contains two end-to-end examples (testAMM, Compound) and gives you guidelines on how to apply OVer to a new test case. 
 
+The complete artifact can be found [here](https://zenodo.org/records/10436720).
+
 ##### Setup
 Install the OVer VM and change to the `~/icse-experiment` directory.
 Activate the python environment `venv`.
